@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuevo Profesional</title>
+    <link rel="stylesheet" href="styles/estilos.css">
+</head>
+
+<body>
+    <section class="form-createaccount">
+       <form action="NuevoProfesional" method="post">
+        
+        <h3>Nuevo Profesional</h3>
+        
+        <label for="inputMatricula">Matricula</label>
+        <input type="text" name="matricula" id="inputMatricula" class="input" placeholder="Ingrese matricula">
+		
+		<label for="inputNombre">Nombre</label>
+        <input type="text" name="nombre" id="inputNombre" class="input" placeholder="Ingrese nombre">
+        
+        <label for="inputApellido">Apellido</label>
+        <input type="text" name="apellido" id="inputApellido" class="input" placeholder="Ingrese apellido">
+        
+        <label for="inputEmail">Email</label>
+        <input type="email" name="email" id="inputEmail" class="input" placeholder="Ingrese email">
+        
+        <label for="inputClave">Clave</label>
+        <input type="password" name="password" id="inputClave" class="input" placeholder="Ingrese clave">
+        
+        <label for="inputCod">Codigo especialidad</label>
+        <input type="number" name="codigo" id="inputCod" class="input" placeholder="Ingrese codigo especialidad">
+        
+        <button type="submit" name="opc" class="input-button" value="1">Aceptar</button>
+        <button type="submit" name="opc" class="input-button" value="0">Volver atras</button>
+       </form>
+    </section>
+</body>
+</html>

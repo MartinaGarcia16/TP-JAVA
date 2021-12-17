@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear cuenta</title>
+    <link rel="stylesheet" href="styles/estilos.css">
+</head>
+
+<body>
+    <section class="form-createaccount">
+       <form action="CrearCuenta" method="post">
+        
+        <h3>Nueva cuenta</h3>
+		
+		<label for="inputNombre">Nombre</label>
+        <input type="text" name="nombre" id="inputNombre" class="input" placeholder="Ingrese su nombre">
+        
+        <label for="inputApellido">Apellido</label>
+        <input type="text" name="apellido" id="inputApellido" class="input" placeholder="Ingrese su email">
+        
+        <label for="inputDni">Dni</label>
+        <input type="text" name="dni" id="inputDni" class="input" placeholder="Ingrese su numero de documento">
+        
+        <label for="inputNro">Numero de contacto</label>
+        <input type="text" name="nro" id="inputNro" class="input" placeholder="Ingrese su numero de contacto">
+        
+        <label for="os">Elija su obra social</label>
+  		<select name="obra_social" id="os">
+    		<option value="1">Federada Salud</option>
+    		<option value="2">Osde</option>
+    		<option value="3">Medicus</option>
+    		<option value="4">Swiss Medical</option>
+    		<option value="5">Galeno</option>
+    		<option value="6">Medife</option>
+    		<option value="7">Pami</option>
+    		<option value="8">ACA Salud</option>
+    		<option value="9">SanCor Salud</option>
+  		</select>
+  		<br></br>
+  	    
+        <label for="inputEmail">Email</label>
+        <input type="email" name="email" id="inputEmail" class="input" placeholder="Ingrese su email">
+		
+        <label for="inputPass">Password</label>
+        <input type="password" name="password" id="inputPass" class="input" placeholder="Ingrese su clave">
+
+        <button type="submit" class="input-button">Aceptar</button>
+       </form>
+    </section>
+</body>
+</html>
